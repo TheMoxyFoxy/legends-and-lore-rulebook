@@ -1,6 +1,3 @@
 [submodule "CoreRulebook/themes/hugo-book"]
 	path = CoreRulebook/themes/hugo-book
 	url = https://github.com/alex-shpak/hugo-book
-[submodule "CoreRulebook/theme/hugo-book"]
-	path = CoreRulebook/theme/hugo-book
-	url = https://github.com/alex-shpak/hugo-book
