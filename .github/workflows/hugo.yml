@@ -28,6 +28,7 @@ defaults:
 
 jobs:
   # Build job
+  # Remove -D in `run` later
   build:
     runs-on: ubuntu-latest
     env:
@@ -55,6 +56,7 @@ jobs:
         run: |
           hugo \
             --minify \
+            -D \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
