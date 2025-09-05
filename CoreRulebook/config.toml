@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Legends & Lore Core Rulebook"
+theme = "hugo-book"
+
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+[markup.tableOfContents]
+  startLevel = 1
+
+[params]
+  BookSection = 'pages'
