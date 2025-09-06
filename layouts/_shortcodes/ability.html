@@ -25,6 +25,9 @@
 		{{- if .Get "cost" -}}
 			{{ with .Get "cost" }}<span><strong>Cost:</strong> {{ . }}</span>{{ end }}
 		{{- end -}}
+		{{- if .Get "range" -}}
+			{{ with .Get "range" }}<span><strong>Range:</strong> {{ . }}</span>{{ end }}
+		{{- end -}}
 		{{- if .Get "power" -}}
 			{{ with .Get "power" }}<span><strong>Power:</strong> {{ . }}</span>{{ end }}
 		{{- end -}}
