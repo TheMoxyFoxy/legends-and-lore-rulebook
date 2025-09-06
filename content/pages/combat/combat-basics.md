@@ -31,5 +31,5 @@ After hitting, you now roll to wound. This is calculated based on the Power of t
 
 Since certain modifiers from items or spells can increase or decrease the rolled Wound Check, it's possible to get above a 6 in certain scenarios.
 
-### Rolling to Damage
+### Rolling for Damage
 If you both hit *and* wound, you now roll for damage! The damage done is based on the weapon/spell being used to attack, as well as any applicable modifiers. Be sure to read the ability to confirm what dice to roll and what modifiers to add! If you're taking the damage, be sure to note the total wounds you've taken. If your wounds is greater than or equal to your HP, you're knocked unconscious and have to be stabilized!
