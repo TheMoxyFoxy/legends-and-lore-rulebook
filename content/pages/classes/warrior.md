@@ -7,7 +7,7 @@ draft: true
 # Warrior
 Warriors are masters of combat, able to use one or more melee weapons with great effectiveness in battle. Most warriors choose to specialize in one weapon, such as greatswords, a sword and shield, lances, or twin swords. Though they focus on melee combat, there are many types of warriors, all with different goals and focuses.
 
-At level 1, warriors gain a new resource, Stamina, with a maximum amount equal to their warrior level. Many of their skills use Stamina, which regenerates at an amount equal to your Strength. Whenever you end your turn without using Stamina, you regenerate again.
+At level 1, warriors gain a new resource, Stamina, with a maximum amount equal to their warrior level. Many of their skills use Stamina, which regenerates at an amount equal to your Strength at the end of your turn. Whenever you end your turn without using Stamina, you instead regenerate twice.
 
 You also gain these abilities:
 

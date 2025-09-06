@@ -1,15 +1,36 @@
+{{ $type := .Get "type" }}
+{{ $color := "" }}
+
+{{- if eq $type "Melee Attack" -}}
+	{{ $color = "lightcoral" }}
+{{- else if eq $type "Spell" -}}
+	{{ $color = "lightblue" }}
+{{- end -}}
+
 <div class="ability-container">
-	<div class="ability-title">
+	<div class="ability-title" style="background-color: {{ $color }}">
 		{{ with .Get "name" }}<h3><strong>{{ . }}</strong></h3>{{ end }}
 	</div>
 	<div class="ability-stats">
+		{{ with .Get "type" }}<span><strong>Type:</strong> {{ . }}</span>{{ end }}
+		{{- if .Get "level" -}}
+			{{ with .Get "level" }}<span><strong>Level:</strong> {{ . }}</span>{{ end }}
+		{{- end -}}
+		{{- if .Get "components" -}}
+			{{ with .Get "components" }}<span><strong>Components:</strong> {{ . }}</span>{{ end }}
+		{{- end -}}
 		{{- if .Get "ap" -}}
 			{{ with .Get "ap" }}<span><strong>AP:</strong> {{ . }}</span>{{ end }}
 		{{- end -}}
 		{{- if .Get "cost" -}}
 			{{ with .Get "cost" }}<span><strong>Cost:</strong> {{ . }}</span>{{ end }}
 		{{- end -}}
-		{{ with .Get "type" }}<span><strong>Type:</strong> {{ . }}</span>{{ end }}
+		{{- if .Get "power" -}}
+			{{ with .Get "power" }}<span><strong>Power:</strong> {{ . }}</span>{{ end }}
+		{{- end -}}
+		{{- if .Get "damage" -}}
+			{{ with .Get "damage" }}<span><strong>Damage:</strong> {{ . }}</span>{{ end }}
+		{{- end -}}
 	</div>
 	<div class="ability-description">
 		<p><strong>Description</strong></p>

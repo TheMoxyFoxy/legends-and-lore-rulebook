@@ -15,3 +15,6 @@ When rolling with Difficulty, you subtract a `d6` from your roll. If you have mu
 
 ## Disadvantage
 When rolling with Disadvantage, you roll two dice of the specified type (usually `d20`) and take the lowest.
+
+## Disoriented
+While Disoriented, all actions you make for the turn have Difficulty to hit. At the end of each turn, the disoriented character must make a difficulty `10` Durability saving throw.
