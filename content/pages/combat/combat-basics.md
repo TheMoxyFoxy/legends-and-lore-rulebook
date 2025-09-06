@@ -8,7 +8,7 @@ draft: true
 Combat works in a very straightforward and consistent way. Combat alternates between players and enemies. During the players' turn, they decide which of them will go (that hasn't gone this turn). Then, after their actions have concluded, an enemy controlled by the DM takes its turn. This goes until all characters in the combat have taken their turn. However, sometimes strong enemies may go before the party in certain situations.
 
 ## Actions
-Each player has a number of Action Points (AP) based on their level, starting at 2. Certain actions, such as martial abilities, spells, movement, etc. will cost a certain number of AP. A player's turn is considered done when they have used all of their AP and have no other actions they can take.
+Each player has a number of Action Points (AP) based on their level, starting at 3. Certain actions, such as martial abilities, spells, movement, etc. will cost a certain number of AP. A player's turn is considered done when they have used all of their AP and have no other actions they can take.
 
 ## Movement
 A character can move at any time during their turn in units equal to their Speed, whether before, during, or after using all their AP. In addition, characters can use 2 AP to Dash, doubling their movement speed for that turn.
