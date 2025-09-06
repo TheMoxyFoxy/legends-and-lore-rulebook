@@ -1,0 +1,11 @@
+<div class="ability-container">
+	<div class="ability-title">
+		{{ with .Get "name" }}<strong>{{ . }}</strong>{{ end }}
+	</div>
+	<div class="ability-stats">
+		{{ with .Get "ap" }}<span><strong>AP:</strong> {{ . }}</span>{{ end }}
+	</div>
+	<div class="ability-description">
+		{{ .Inner | safeHTML }}
+	</div>
+</div>

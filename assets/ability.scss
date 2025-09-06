@@ -1,0 +1,28 @@
+.ability-container {
+	width: fit-content;
+	overflow: hidden;
+	text-wrap: break-word;
+	padding: 0;
+}
+
+	.ability-container .ability-title {
+		background-color: lightgreen;
+		border: 1px solid black;
+		padding: 2px 5px 2px 5px;
+		width: 100%;
+	}
+
+	.ability-container .ability-stats {
+		background-color: lightgoldenrodyellow;
+		border: 1px solid black;
+		text-wrap: break-word;
+		padding: 5px;
+		width: 100%;
+	}
+
+	.ability-container .ability-description {
+		border: 1px solid black;
+		text-wrap: break-word;
+		padding: 5px;
+		width: 100%;
+	}

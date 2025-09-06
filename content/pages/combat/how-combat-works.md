@@ -13,6 +13,10 @@ Each player has a number of Action Points (AP) based on their level, starting at
 ## Movement
 A character can move at any time during their turn in units equal to their Speed, whether before, during, or after using all their AP. In addition, characters can use 2 AP to Dash, doubling their movement speed for that turn.
 
+{{% ability name="Dash" ap="2" %}}
+For this turn, you are able to move twice your Speed. Can only be used once per turn.
+{{% /ability %}}
+
 ## Attacking
 There are three distinct phases of rolling to attack. Each of them require different dice, but the first two are often rolled together.
 
