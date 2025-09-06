@@ -36,7 +36,7 @@ jobs:
     steps:
       - name: LS
         run: |
-          ls
+          ls -A
       - name: Replace Custom SCSS
         run: |
           cp assets/scss/_custom.scss themes/hugo-book/assets/_custom.scss
