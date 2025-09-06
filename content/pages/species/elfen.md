@@ -26,7 +26,7 @@ A Gigantia is an Elfen that can be almost double the height of the shortest Elfe
 {{% hint info %}}
 **Bonuses**
 
-Elfen Gigantia get a **+1** to Constitution (CON) and **+2** to Armor Class (AC).
+Elfen Gigantia get a **+1** to Durability (DUR) and **+2** to Armor Class (AC).
 {{% /hint %}}
 
 ## Sprintia
