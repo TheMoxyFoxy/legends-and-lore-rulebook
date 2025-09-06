@@ -24,3 +24,4 @@ In addition, each character has _derived_ stats. These are stats that are direct
 | Speed         | Speed     | How swift the character can move. This dictates how far they can move in a turn. This is based on `3 + DEX / 2`.                                                            |
 | Evasion       | EVA       | How nimble or capable the character is in dodging and deflecting attacks. This is based on `10 + DEX`. This is used in Hit Rolls.                                           |
 | Armor Class   | AC        | How strong the character in combination with their armor is. This starts at `8` and is increased (or even decreased) based on various bonuses. This is used in Wound Rolls. |
+| Action Points | AP        | How many actions your character can take in a turn. At level 1, you start with 3, and gain 1 every 5 levels.                                                                |
