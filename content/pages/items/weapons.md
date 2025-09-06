@@ -18,7 +18,9 @@ Listed below are all of the weapons available to players at character creation.
 | Damage Type    | Slashing        |
 | Damage         | `2d6`           |
 
-{{% ability name="Cleave" type="Melee Attack" ap="2" %}}Swing your sword wide, attacking all enemies in a 2 unit cone in front of you.{{% /ability %}}
+{{% ability name="Cleave" type="Melee Attack" ap="2" %}}
+Swing your sword wide, attacking all enemies in a 2 unit cone in front of you.
+{{% /ability %}}
 
 ## Shortsword
 | Stat          | Value           |
@@ -30,7 +32,9 @@ Listed below are all of the weapons available to players at character creation.
 | Damage Type   | Slashing        |
 | Damage        | `1d6`           |
 
-{{% ability name="Pommel Strike" type="Melee Attack" ap="1" power="8" %}}Strike with the pommel of your blade, dealing `d4` damage.{{% /ability %}}
+{{% ability name="Pommel Strike" type="Melee Attack" ap="1" power="8" %}}
+Strike with the pommel of your blade, dealing `d4` damage.
+{{% /ability %}}
 
 ## Shield
 | Stat           | Value            |
@@ -44,7 +48,9 @@ Listed below are all of the weapons available to players at character creation.
 | Damage Type    | Blunt            |
 | Damage         | `1d4`            |
 
-{{% ability name="Shield Bash" type="Melee Attack" ap="1" %}}If this attack wounds, the target must make a Durability saving throw against your Strength (`10 + STR`) or be Disoriented.{{% /ability %}}
+{{% ability name="Shield Bash" type="Melee Attack" ap="1" %}}
+If this attack wounds, the target must make a Durability saving throw against your Strength (`10 + STR`) or be Disoriented.
+{{% /ability %}}
 
 ## Staff
 | Stat           | Value         |

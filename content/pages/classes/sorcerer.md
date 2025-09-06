@@ -38,4 +38,6 @@ You gain Mana Slots as you level up according to the below table. A sorcerer’s
 Whenever you cast a spell that isn't a cantrip, you "exhaust" a Mana Slot of its level (or higher, if you so choose). An exhausted Mana Slot cannot be used until you rest, so keep track of them!
 
 You also gain this ability at level 1:
-{{% ability name="Mana Gate Exertion" type="Action" ap="1" %}}You choose a mana slot whose level is equal to or less than half your Sorcerer level (rounded up) to regain it and roll d4s equal to its level, taking the result as wounds.{{% /ability %}}
+{{% ability name="Mana Gate Exertion" type="Action" ap="1" %}}
+You choose a mana slot whose level is equal to or less than half your Sorcerer level (rounded up) to regain it and roll a number of `d4` dice equal to its level, taking the result as wounds.
+{{% /ability %}}
