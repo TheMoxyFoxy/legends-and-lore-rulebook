@@ -3,11 +3,13 @@ languageCode = "en-us"
 title = "Legends & Lore Core Rulebook"
 theme = "hugo-book"
 
+custom_scss = ["ability.scss"]
+
 [markup]
-[markup.goldmark.renderer]
-  unsafe = true
-[markup.tableOfContents]
-  startLevel = 1
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
 
 [params]
   BookSection = 'pages'

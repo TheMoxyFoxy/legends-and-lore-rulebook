@@ -1,8 +1,9 @@
 .ability-container {
-	width: fit-content;
+	width: 100%;
 	overflow: hidden;
 	text-wrap: break-word;
 	padding: 0;
+	margin: 15px 0 15px 0;
 }
 
 	.ability-container .ability-title {
@@ -12,6 +13,10 @@
 		width: 100%;
 	}
 
+		.ability-container .ability-title * {
+			margin: 5px 0 5px 0;
+		}
+
 	.ability-container .ability-stats {
 		background-color: lightgoldenrodyellow;
 		border: 1px solid black;
@@ -20,9 +25,17 @@
 		width: 100%;
 	}
 
+		.ability-container .ability-stats span {
+			margin-right: 5px;
+		}
+
 	.ability-container .ability-description {
 		border: 1px solid black;
 		text-wrap: break-word;
 		padding: 5px;
 		width: 100%;
 	}
+
+		.ability-container .ability-description * {
+			margin: 0;
+		}
