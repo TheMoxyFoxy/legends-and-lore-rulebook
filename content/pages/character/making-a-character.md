@@ -15,4 +15,4 @@ There are a couple steps you must follow when making a character. It can be a lo
 7. Select an armor for your character. You can now set your AC to 8 + AC Bonuses obtained by any equipped items.
 8. Note down all skills you have access to from your class and weapon(s) (if applicable).
 9. If you are a magic-based class, learn spells as designated by your class.
-10. Selected 3 "Proficiencies" for your character.
+10. Select 3 "Proficiencies" for your character.
