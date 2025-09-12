@@ -18,7 +18,7 @@ Listed below are all of the weapons available to players at character creation.
 | Damage         | `1d8 +  STR`    |
 
 {{% ability name="Cleave" type="Melee Attack" ap="2" %}}
-Swing your sword in a wide arc, attacking all enemies within a unit around you. Has -1 to hit for each target.
+Swing your sword in a wide arc, attacking all enemies within a unit around you. Gets -1 to hit for each target.
 {{% /ability %}}
 
 ## Shortsword
