@@ -13,13 +13,12 @@ Listed below are all of the weapons available to players at character creation.
 | Type           | Sword (Martial) |
 | Double-Handed  | Yes             |
 | Hit Modifier   | STR             |
-| Wound Modifier | +1              |
-| Power          | `14 + MOD`      |
+| Power          | `10 + STR`      |
 | Damage Type    | Slashing        |
-| Damage         | `2d6`           |
+| Damage         | `1d8 +  STR`    |
 
 {{% ability name="Cleave" type="Melee Attack" ap="2" %}}
-Swing your sword wide, attacking all enemies in a 2 unit cone in front of you.
+Swing your sword in a wide arc, attacking all enemies within a unit around you. Has -1 to hit for each target.
 {{% /ability %}}
 
 ## Shortsword
@@ -28,9 +27,9 @@ Swing your sword wide, attacking all enemies in a 2 unit cone in front of you.
 | Type          | Sword (Martial) |
 | Double-Handed | No              |
 | Hit Modifier  | STR/DEX         |
-| Power         | `10 + MOD`      |
+| Power         | `8 + MOD`       |
 | Damage Type   | Slashing        |
-| Damage        | `1d6`           |
+| Damage        | `1d6 + MOD`     |
 
 {{% ability name="Pommel Strike" type="Melee Attack" ap="1" power="8" %}}
 Strike with the pommel of your blade, dealing `d4` damage.
@@ -44,7 +43,7 @@ Strike with the pommel of your blade, dealing `d4` damage.
 | Hit Modifier   | STR              |
 | Wound Modifier | -1               |
 | AC Bonus       | +1               |
-| Power          | `8 + MOD`        |
+| Power          | `4 + MOD`        |
 | Damage Type    | Blunt            |
 | Damage         | `1d4`            |
 
@@ -56,8 +55,12 @@ If this attack wounds, the target must make a Durability saving throw against yo
 | Stat           | Value         |
 | -------------: | :------------ |
 | Type           | Staff (Basic) |
-| Double-Handed  | No            |
-| Hit Modifier   | STR           |
-| Power          | `8 + MOD`     |
+| Double-Handed  | Yes           |
+| Hit Modifier   | DEX           |
+| Power          | `4 + DEX`     |
 | Damage Type    | Blunt         |
-| Damage         | `1d4`         |
+| Damage         | `1d4` + DEX   |
+
+{{% ability name="Swift Strike" type="Melee Attack" ap="1" %}}
+Perform a melee attack against target creature.
+{{% /ability %}}
