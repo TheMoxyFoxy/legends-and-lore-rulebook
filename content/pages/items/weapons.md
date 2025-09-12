@@ -59,7 +59,7 @@ If this attack wounds, the target must make a Durability saving throw against yo
 | Hit Modifier   | DEX           |
 | Power          | `4 + DEX`     |
 | Damage Type    | Blunt         |
-| Damage         | `1d4` + DEX   |
+| Damage         | `1d4 + DEX`   |
 
 {{% ability name="Swift Strike" type="Melee Attack" ap="1" %}}
 Perform a melee attack against target creature.
