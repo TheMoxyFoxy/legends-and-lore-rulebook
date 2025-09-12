@@ -11,6 +11,6 @@ Cantrips are spells whose load on the caster is so light that they do not exhaus
 Create a small orb of fire in a location, creating a dim light 3 units around it. There can only be one fire placed at a time, unless the fire ignites something else.
 {{% /ability %}}
 
-{{% ability name="Lesser Arcana Bolt" components="S" ap="1" type="Spell" classes="Sorcerer" range="4" power="6 + MOD" damage="d4 + MOD" %}}
+{{% ability name="Minor Arcana Bolt" components="S" ap="1" type="Spell" classes="Sorcerer" range="4" power="6 + MOD" damage="d4 + MOD" %}}
 Fire a bolt of condensed magic, dealing arcane damage to the target creature.
 {{% /ability %}}
