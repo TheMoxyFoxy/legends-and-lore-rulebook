@@ -3,8 +3,11 @@
 
 {{- if eq $type "Melee Attack" -}}
 	{{ $color = "lightcoral" }}
-{{- else if eq $type "Spell" -}}
+{{- else if eq $type "Attack Spell" -}}
 	{{ $color = "lightblue" }}
+{{- end -}}
+{{- else if eq $type "Spell" -}}
+	{{ $color = "lightcyan" }}
 {{- end -}}
 
 <div class="ability-container">
