@@ -5,7 +5,7 @@ draft: true
 ---
 
 {{% ability name="Everald's Seeking Arrow" components="V,S" level="1" ap="2" type="Attack Spell" classes="Sorcerer" range="6" power="8 + MOD" damage="1d6 + MOD" %}}
-Automatically succeeds to hit, but must still make a wound roll.
+Automatically hits.
 {{% /ability %}}
 
 {{% ability name="Firebolt" level="1" components="V,S" ap="1" type="Attack Spell" classes="Sorcerer" range="8" power="8 + MOD" damage="1d8 + MOD" %}}
@@ -25,5 +25,7 @@ Summon a swarm of magical bees to attack your enemy. At the beginning of their t
 {{% /ability %}}
 
 {{% ability name="Wave of Force" components="V,S" level="1" ap="2" type="Attack Spell" classes="Sorcerer" range="3" power="10 + MOD" damage="1d6 + MOD" %}}
-Push a 3x3 unit wall of pure magic in front of you. Any creatures in range must make a DC `10 + MOD` check or be knocked back by 2 units and take damage. Does not roll to hit, but does roll to wound.
+Automatically hits.
+
+Push a 3x3 unit wall of pure magic in front of you. Any creatures in range must make a DC `10 + MOD` check or be knocked back by 2 units and take damage.
 {{% /ability %}}
