@@ -57,6 +57,18 @@ Strike with the pommel of your blade, dealing `d4` damage.
 If this attack wounds, the target must make a Durability saving throw against your Strength (`10 + STR`) or be Disoriented.
 {{% /ability %}}
 
+## Spear
+| Stat           | Value           |
+| -------------: | :-------------- |
+| Type           | Spear (Martial) |
+| Melee          | Yes             |
+| Double-Handed  | Yes             |
+| Range          | 2 units         |
+| Hit Modifier   | STR             |
+| Power          | `10 + STR`      |
+| Damage Type    | Piercing        |
+| Damage         | `1d8 +  STR`    |
+
 ## Staff
 | Stat           | Value         |
 | -------------: | :------------ |
