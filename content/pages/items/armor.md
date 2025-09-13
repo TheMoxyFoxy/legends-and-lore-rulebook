@@ -11,7 +11,7 @@ draft: true
 | Type     | Light |
 
 ## Chainmail
-| Stat     | Value |
-| -------: | :---- |
-| AC Bonus | +2    |
-| Type     | Heavy |
+| Stat     | Value  |
+| -------: | :----- |
+| AC Bonus | +2     |
+| Type     | Medium |
