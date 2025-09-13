@@ -14,18 +14,20 @@ At level 1, warriors gain a new resource, Stamina, with a maximum amount equal t
 
 You also gain these abilities at level 1:
 
-{{% ability name="Brace" type="Action" cost="1 Stamina" %}}
-Increase your AC by 1 until the start of your next turn.
-{{% /ability %}}
-
-{{% ability name="Focused Strike" type="Action" cost="1 Stamina" %}}
-Your next nonmagical attack gains Accuracy to hit.
-{{% /ability %}}
-
 {{% ability name="Weakpoint" type="Action" cost="2 Stamina" %}}
 Your next nonmagical attack gains +1 to wound.
 {{% /ability %}}
 
 {{% ability name="Flank" type="Passive" %}}
 Your nonmagical melee attacks gain Accuracy to hit when attacking an enemy if the last ally they attacked this combat is not within your range of influence.
+{{% /ability %}}
+
+### Level 2
+You gain these abilities at level 2:
+{{% ability name="Brace" type="Action" cost="1 Stamina" %}}
+Increase your AC by 1 until the start of your next turn.
+{{% /ability %}}
+
+{{% ability name="Focused Strike" type="Action" cost="1 Stamina" %}}
+Your next nonmagical attack gains Accuracy to hit.
 {{% /ability %}}
