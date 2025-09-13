@@ -10,7 +10,7 @@ Warriors are masters of combat, able to use one or more melee weapons with great
 ## Building a Warrior
 A warrior's hit die is a `d8` and they are proficient in both martial and basic weapons as well as heavy armor and below.
 
-At level 1, warriors gain a new resource, Stamina, with a maximum amount equal to their warrior level. Many of their skills use Stamina, which regenerates at an amount equal to your Strength at the end of your turn. Whenever you end your turn without using Stamina, you instead regenerate twice.
+At level 1, warriors gain a new resource, Stamina, with a maximum amount equal to their warrior level. Many of their skills use Stamina, which regenerates at an amount equal to your Strength at the end of your turn. Whenever you end your turn without using Stamina, you instead regenerate twice. You start each battle with maximum stamina.
 
 You also gain these abilities at level 1:
 
@@ -23,5 +23,5 @@ Your next nonmagical attack gains +1 to wound. Can only be used once per combat.
 {{% /ability %}}
 
 {{% ability name="Flank" type="Passive" %}}
-Your nonmagical attacks gain Accuracy to hit when attacking an enemy if the last ally they attacked this combat is not within your range of influence.
+Your nonmagical melee attacks gain Accuracy to hit when attacking an enemy if the last ally they attacked this combat is not within your range of influence.
 {{% /ability %}}
