@@ -8,7 +8,7 @@ draft: true
 At some point during your life, whether it be from birth or later, you discovered a link to the Flow, the natural ebb and flow of mana around you. You are able to control this mana, as well as the mana within you via your Mana Gate, casting powerful spells to aid allies and decimate foes.
 
 ## Building a Sorcerer
-A sorcerer's hit die is a `d6`, and they are only proficient in basic weapons and light armor. At level 1 you can learn 4 spells from the spells list which mention Sorcerer. Whenever you learn a new spell, you can only learn spells up to your highest level Mana Slot.
+A sorcerer's hit die is a `d6`, and they are only proficient in basic weapons and light armor. You use INT as your spellcasting modifier (MOD). At level 1 you can learn 4 spells from the spells list which mention Sorcerer. Whenever you learn a new spell, you can only learn spells up to your highest level Mana Slot.
 
 You gain Mana Slots as you level up according to the below table. A sorcerer’s Mana Gate can only take so much spellcasting, so sorcerers have built their spells to account to this, upholding to certain thresholds called “Mana Slots levels”. These only regenerate during a short rest, where you can only regain slots whose levels add up to half of your sorcerer level, or a long rest, where you regain all of them. In times of desperate need, you can overexert your Mana Gate to regain Mana Slots.
 
