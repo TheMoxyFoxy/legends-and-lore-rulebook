@@ -30,6 +30,9 @@
 		{{- if .Get "range" -}}
 			{{ with .Get "range" }}<span><strong>Range:</strong> {{ . }}</span>{{ end }}
 		{{- end -}}
+		{{- if .Get "duration" -}}
+			{{ with .Get "duration" }}<span><strong>Duration:</strong> {{ . }}</span>{{ end }}
+		{{- end -}}
 		{{- if .Get "power" -}}
 			{{ with .Get "power" }}<span><strong>Power:</strong> {{ . }}</span>{{ end }}
 		{{- end -}}
