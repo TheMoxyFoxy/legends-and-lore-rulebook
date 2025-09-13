@@ -11,8 +11,12 @@ Listed here are the common combat-related actions that players can take.
 For this turn, you are able to move twice your Speed. Can only be used once per turn.
 {{% /ability %}}
 
-{{% ability name="Melee Attack" ap="2" type="Action" %}}
-Do a melee attack with the weapon(s) in your hands.
+{{% ability name="Weapon Attack" ap="2" type="Action" %}}
+Perform a melee attack with a weapon in your hands against target creature.
+{{% /ability %}}
+
+{{% ability name="Unarmed Strike" ap="1" type="Melee Attack" power="4 + STR" damage="d4 + STR" %}}
+Perform an unarmed strike against target creature.
 {{% /ability %}}
 
 {{% ability name="Use Small Item" ap="1" type="Action" %}}

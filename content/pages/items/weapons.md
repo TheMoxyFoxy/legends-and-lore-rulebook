@@ -11,7 +11,9 @@ Listed below are all of the weapons available to players at character creation.
 | Stat           | Value           |
 | -------------: | :-------------- |
 | Type           | Sword (Martial) |
+| Melee          | Yes             |
 | Double-Handed  | Yes             |
+| Range          | 1 unit          |
 | Hit Modifier   | STR             |
 | Power          | `10 + STR`      |
 | Damage Type    | Slashing        |
@@ -25,7 +27,9 @@ Swing your sword in a wide arc, attacking all enemies within a unit around you. 
 | Stat          | Value           |
 | ------------: | :-------------- |
 | Type          | Sword (Martial) |
+| Melee         | Yes             |
 | Double-Handed | No              |
+| Range         | 1 unit          |
 | Hit Modifier  | STR/DEX         |
 | Power         | `8 + MOD`       |
 | Damage Type   | Slashing        |
@@ -40,6 +44,8 @@ Strike with the pommel of your blade, dealing `d4` damage.
 | -------------: | :--------------- |
 | Type           | Shield (Martial) |
 | Double-Handed  | No               |
+| Melee          | Yes              |
+| Range          | 1 unit           |
 | Hit Modifier   | STR              |
 | Wound Modifier | -1               |
 | AC Bonus       | +1               |
@@ -56,6 +62,8 @@ If this attack wounds, the target must make a Durability saving throw against yo
 | -------------: | :------------ |
 | Type           | Staff (Basic) |
 | Double-Handed  | Yes           |
+| Melee          | Yes           |
+| Range          | 1 unit        |
 | Hit Modifier   | DEX           |
 | Power          | `4 + DEX`     |
 | Damage Type    | Blunt         |

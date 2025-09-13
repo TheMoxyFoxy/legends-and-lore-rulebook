@@ -18,3 +18,6 @@ When rolling with Disadvantage, you roll two dice of the specified type (usually
 
 ## Disoriented
 While Disoriented, all actions you make for the turn have Difficulty to hit. At the end of each turn, the disoriented character must make a difficulty `12` Durability saving throw to break out of this condition.
+
+## Range of Influence
+The largest range of the melee weapons you have equipped.

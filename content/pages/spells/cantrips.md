@@ -11,7 +11,7 @@ Cantrips are spells whose load on the caster is so light that they do not exhaus
 Create a whip-like lash of condensed magic at target creature, dealing arcane damage.
 {{% /ability %}}
 
-{{% ability name="Firelight" components="V" ap="1" type="Spell" classes="Sorcerer" range="3" %}}
+{{% ability name="Firelight" components="V" ap="1" type="Spell" classes="Sorcerer" range="3" duration="1 minute" %}}
 Create a small orb of fire in a location, creating a dim light 3 units around it. There can only be one fire placed at a time, unless the fire ignites something else.
 {{% /ability %}}
 
@@ -19,6 +19,14 @@ Create a small orb of fire in a location, creating a dim light 3 units around it
 Fire a bolt of condensed magic, dealing arcane damage to the target creature.
 {{% /ability %}}
 
-{{% ability name="Minor Telepathy" ap="1" type="Spell" classes="Sorcerer" range="1" %}}
+{{% ability name="Minor Telepathy" ap="1" type="Spell" classes="Sorcerer" range="1" duration="Concentration" %}}
 Send a one-way telepathic message to target creature.
+{{% /ability %}}
+
+{{% ability name="Stir the Senses" ap="1" type="Spell" classes="Sorcerer" range="10" duration="6 seconds" %}}
+Choose an area or object within range, no bigger than 1ft in diameter:
+- The target has a minor change in luminescence or color.
+- A quiet, indistinct sound, no louder than a whisper, emanates from the target.
+- The target feels slightly warmer or colder to the touch.
+- A faint odor of your choosing emanates from the target.
 {{% /ability %}}
