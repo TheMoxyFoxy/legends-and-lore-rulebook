@@ -12,6 +12,10 @@ A monk's hit die is a `d8` and they are proficient in both martial and basic wea
 At level 1, monks gain access to Ki. You start each battle with 0 Ki and gain 1 each time you hit an enemy with a melee attack.
 
 You also gain these abilities at level 1:
+{{% ability name="Move Like Wind" cost="1 Ki" type="Action" %}}
+Until the start of your next turn, you gain 2 Evasion.
+{{% /ability %}}
+
 {{% ability name="Strike Like Wind" cost="1 Ki" type="Action" %}}
 Your next attack costs 1 less AP.
 {{% /ability %}}
