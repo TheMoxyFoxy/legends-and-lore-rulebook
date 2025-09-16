@@ -11,6 +11,10 @@ Listed here are the common combat-related actions that players can take.
 For this turn, you are able to move twice your Speed. Can only be used once per turn.
 {{% /ability %}}
 
+{{% ability name="Stealth" ap="2" type="Action" %}}
+You attempt to sneak, hiding behind an object and/or out of view. You have to roll Dexterity and beat the Passive Perception of all enemies that are able to see or hear your location. If any enemies have previously spotted you, you roll with Difficulty. You are unable to Stealth while an enemy is looking directly at you. Whenever you attack with stealth, you automatically hit and become unstealthed.
+{{% /ability %}}
+
 {{% ability name="Weapon Attack" ap="2" type="Action" %}}
 Perform a melee attack with a weapon in your hands against target creature.
 {{% /ability %}}
