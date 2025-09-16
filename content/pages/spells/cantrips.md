@@ -23,7 +23,7 @@ Fire a bolt of condensed magic, dealing arcane damage to the target creature.
 Fire a bolt of condensed magic, dealing arcane damage to the target creature.
 {{% /ability %}}
 
-{{% ability name="Minor Shield" components="V" ap="2" type="Spell" classes="Sorcerer" range="4" duration="1 turn" %}}
+{{% ability name="Minor Shield" components="V" ap="1" type="Spell" classes="Sorcerer" range="4" duration="1 turn" %}}
 Give target creature a shield, granting `d4` bonus hit points.
 {{% /ability %}}
 
