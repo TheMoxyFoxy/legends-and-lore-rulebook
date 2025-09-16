@@ -7,7 +7,7 @@ draft: true
 # Cantrips
 Cantrips are spells whose load on the caster is so light that they do not exhaust any Mana Slots. 
 
-{{% ability name="Arcane Flagelliform" components="S" ap="1" type="Attack Spell" classes="Sorcerer" range="3" power="6 + MOD" damage="d6 + MOD" %}}
+{{% ability name="Arcane Whip" components="S" ap="1" type="Attack Spell" classes="Sorcerer" range="3" power="6 + MOD" damage="d6 + MOD" %}}
 Create a whip-like lash of condensed magic at target creature, dealing arcane damage.
 {{% /ability %}}
 
@@ -17,6 +17,14 @@ Create a small orb of fire in a location, creating a dim light 3 units around it
 
 {{% ability name="Minor Arcana Bolt" components="S" ap="1" type="Attack Spell" classes="Sorcerer" range="4" power="6 + MOD" damage="d4 + MOD" %}}
 Fire a bolt of condensed magic, dealing arcane damage to the target creature.
+{{% /ability %}}
+
+{{% ability name="Minor Arcana Bolt" components="S" ap="1" type="Attack Spell" classes="Sorcerer" range="4" power="6 + MOD" damage="d4 + MOD" %}}
+Fire a bolt of condensed magic, dealing arcane damage to the target creature.
+{{% /ability %}}
+
+{{% ability name="Minor Shield" components="V" ap="2" type="Spell" classes="Sorcerer" range="4" duration="1 turn" %}}
+Give target creature a shield, granting `d4` bonus hit points.
 {{% /ability %}}
 
 {{% ability name="Stir the Senses" ap="1" type="Spell" classes="Sorcerer" range="10" duration="6 seconds" %}}
