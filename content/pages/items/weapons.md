@@ -7,6 +7,26 @@ draft: true
 # Weapons
 Listed below are all of the weapons available to players at character creation.
 
+## Dagger
+| Stat           | Value            |
+| -------------: | :--------------- |
+| Type           | Dagger (Martial) |
+| Melee          | Yes              |
+| Double-Handed  | No               |
+| Range          | 1 unit           |
+| Hit Modifier   | DEX              |
+| Power          | `4 + DEX`        |
+| Damage Type    | Slashing         |
+| Damage         | `1d4 +  DEX`     |
+
+{{% ability name="Throw Dagger" type="Ranged Attack" ap="1" range="3 units" %}}
+You throw your dagger at any target. You can collect the dagger by stepping on the hex it is at (where it fell, or next to the opponent it's stuck in) and activating Use Small Item.
+{{% /ability %}}
+
+{{% ability name="Thrust" type="Melee Attack" ap="1" %}}
+You thrust your dagger forwards, dealing piercing damage to the target.
+{{% /ability %}}
+
 ## Longsword
 | Stat           | Value           |
 | -------------: | :-------------- |
@@ -17,7 +37,7 @@ Listed below are all of the weapons available to players at character creation.
 | Hit Modifier   | STR             |
 | Power          | `10 + STR`      |
 | Damage Type    | Slashing        |
-| Damage         | `1d8 +  STR`    |
+| Damage         | `1d8 + STR`     |
 
 {{% ability name="Cleave" type="Melee Attack" ap="2" %}}
 Swing your sword in a wide arc, attacking all enemies within a unit around you. Gets -1 to hit for each target.
