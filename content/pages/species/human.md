@@ -10,5 +10,8 @@ Humans are one of the most versatile beings in the world, able to adapt to any e
 {{% hint info %}}
 **Bonuses**
 
-Humans get a **+1** to any stat and an additional proficiency.
+Humans get a **+1** to any stat and a talent.
+
+## Optional Rule:
+Any race may take this bonus instead of their initial race bonus.
 {{% /hint %}}
